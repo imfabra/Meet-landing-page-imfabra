@@ -1,0 +1,15 @@
+.main__text {
+    font: var(--body2);
+    color: var(--color-shaded-dark);
+    text-align: center;
+
+    margin-block-start: 0;
+    margin-block-end: 6.4rem;
+}
+
+@media only screen and (min-width: 1250px) {
+    .main__text {
+        font: var(--body1);
+        padding-inline: 2.5rem;
+    }
+}

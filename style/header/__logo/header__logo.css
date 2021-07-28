@@ -1,0 +1,27 @@
+.header__logo {
+    inline-size: 11.9rem;
+    block-size: 2.8rem;
+
+    margin-block-start: 4.8rem;
+    margin-block-end: 5.4rem;
+}
+
+@media only screen and (min-width: 760px) {
+    .header__logo {
+        margin-block-end: 6.4rem;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    .header__logo {
+        margin-block-start: 8.0rem;
+        margin-block-end: 6.0rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .header__logo {
+        margin-block-start: 8.0rem;
+        margin-block-end: 6.0rem;
+    }
+}

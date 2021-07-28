@@ -1,0 +1,19 @@
+.header__content {
+    inline-size: 32.7rem;
+    text-align: center;
+    padding-block-end: 3.2rem;
+}
+
+@media only screen and (min-width: 760px) {
+    .header__content {
+        inline-size: 42.7rem;
+        padding-block-end: 4.0rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .header__content {
+        inline-size: 54.0rem;
+        order: 2;
+    }
+}

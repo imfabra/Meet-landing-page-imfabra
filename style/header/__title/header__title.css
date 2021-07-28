@@ -1,0 +1,25 @@
+.header__title {
+    font: var(--headline3);
+    color: var(--color-dark);
+    margin-block-start: 4.8rem;
+    margin-block-end: 2.4rem;
+    margin-inline-start: 2.5rem;
+    margin-inline-end: 2.5rem;
+}
+
+@media only screen and (min-width: 760px) {
+    .header__title {
+        font: var(--headline5);
+        margin-block-start: 7.2rem;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .header__title {
+        font: var(--headline1);
+        margin-block-start: 5.0rem;
+        margin-block-end: 3.0rem;
+        padding-inline-start: 2.5rem;
+        padding-inline-end: 2.5rem;
+    }
+}

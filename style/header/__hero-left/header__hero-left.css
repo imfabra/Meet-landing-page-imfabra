@@ -1,0 +1,31 @@
+.header__hero-left {
+    block-size: calc((100vw*153)/375);
+    inline-size: calc(100%/2);
+    overflow: hidden;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (min-width: 760px) {
+    .header__hero-left {
+        max-block-size: 30.3rem;
+    }
+}       
+
+@media only screen and (min-width: 1020px) {
+    .header__hero-left {
+        max-block-size: 30.3rem;
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .header__hero-left {
+        inline-size: calc((100%*360)/1440);
+        block-size: auto;   
+        justify-content: flex-start;
+        order: 1;
+        position: relative;
+    }
+}

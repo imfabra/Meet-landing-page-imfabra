@@ -1,0 +1,16 @@
+.main__text-line {
+    font: var(--overline);
+    letter-spacing: 0.4rem;
+    color: var(--color-primary);
+    text-transform: uppercase;
+
+
+    margin-block-start: 0;
+    margin-block-end: 2.4rem;
+}
+
+@media only screen and (min-width: 760px) {
+    .main__text-line {
+        margin-block-end: 1.6rem;
+    }
+}

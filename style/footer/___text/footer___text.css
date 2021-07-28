@@ -1,0 +1,22 @@
+.footer___text {
+    font: var(--body1);
+    color: var(--color-light);
+    text-align: center;
+
+    margin-block-start: 0;
+    margin-block-end: 3.2rem;
+}
+
+@media only screen and (min-width: 760px){
+    .footer___text {
+        inline-size: 57.3rem;
+        margin-block-end: 4.0rem;
+    }
+}
+
+@media only screen and (min-width: 1250px){
+    .footer___text {
+        text-align: left;
+        inline-size: 35.0rem;
+    }
+}

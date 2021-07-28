@@ -1,0 +1,24 @@
+.main__img-people {
+    inline-size: calc(((100vw)*151)/375);
+    block-size: calc((100vw*143)/375);
+    
+    border-radius: 0.8rem;
+
+    flex-shrink: 1;
+}
+
+
+@media only screen and (min-width: 760px) {
+    .main__img-people {
+        inline-size: 15.6rem;
+        block-size: 16.4rem;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .main__img-people {
+        inline-size: 25.5rem;
+        block-size: 24.2rem;
+    }
+}
+

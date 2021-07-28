@@ -1,0 +1,20 @@
+.header__hero-right-img {
+    block-size: 100%;
+    margin-inline-start: calc((100vw*8)/375);
+}
+
+@media only screen and (min-width: 760px) {
+    .header__hero-right-img {
+        margin-inline-start: calc((100vw*16)/768);
+        max-block-size: 30.3rem;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .header__hero-right-img {
+        margin-inline-start: 0;
+        position: absolute;
+        left: 0.0rem;
+    }
+}
+

@@ -1,0 +1,22 @@
+.main__imgs {
+    margin-inline: calc((100vw*24)/375);
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    gap: calc((100vw*25)/375);
+}
+
+@media only screen and (min-width: 760px) {
+    .main__imgs {
+        gap: calc((100vw*11)/768);
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .main__imgs {
+        margin-block-start: 1.5rem;
+        gap: 3.0rem;
+    }
+}

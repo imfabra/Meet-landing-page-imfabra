@@ -1,0 +1,46 @@
+@import './__num/footer__num.css';
+@import './__section/footer__section.css';
+@import './__title/footer__title.css';
+@import './___text/footer___text.css';
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    block-size: 42.8rem;
+
+
+    margin-block-start: 8.4rem;
+    background-image: url(../../assets/mobile/image-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.footer:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #4D96A9;
+    opacity: 90%;
+    order: 1;
+}
+
+@media only screen and (min-width: 760px){
+    .footer {
+        margin-block-start: 19.2rem;
+        background-image: url(../../assets/tablet/image-footer.jpg);
+        block-size: 42.8rem;
+    }
+}
+
+@media only screen and (min-width: 1250px){
+    .footer {
+        background-image: url(../../assets/desktop/image-footer.jpg);
+        block-size: 30.0rem;
+    }
+}

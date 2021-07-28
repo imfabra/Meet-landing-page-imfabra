@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+@import './header/header.css';
+@import './main/main.css';
+@import './footer/footer.css';
+@import './btn/btn-primary.css';
+@import './btn/btn-secondary.css';
+
+:root {
+    /* Design System */
+
+    /* Colors */
+    --color-primary: hsl(192, 37%, 48%);
+    --color-secondary: hsl(268, 34%, 53%);
+    --color-dark: hsl(240, 21%, 20%);
+    --color-shaded-dark: hsl(240, 10%, 57%);
+
+    --color-primary-light: hsl(192, 90%, 77%);
+    --color-secondary-light: hsl(268, 100%, 86%);
+    --color-light: hsl(0, 0%, 98%);
+
+    /* Typography */
+    --font-base: 'Red Hat Display', sans-serif;
+    --headline1: 900 6.4rem/6.4rem var(--font-base); /* letter-spacing: 0rem; */
+    --headline2: 900 4.4rem/4.0rem var(--font-base); /* letter-spacing: 0rem; */
+    --headline3: 900 4.0rem/4.4rem var(--font-base); /* letter-spacing: 0rem; */
+    --headline4: 900 3.2rem/3.6rem var(--font-base); /* letter-spacing: 0rem; */
+    --headline5: 900 4.8rem/4.8rem var(--font-base); /* letter-spacing: 0rem; */
+    --body1: 500 1.8rem/2.6rem var(--font-base); /* letter-spacing: 0rem; */
+    --body2: 500 1.6rem/2.6rem var(--font-base); /* letter-spacing: 0rem; */
+    --overline: 900 1.6rem/2.6rem var(--font-base); /* letter-spacing: 0.4rem; */
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    inline-size: 100%;
+    min-block-size: 100vh;
+    background-color: #FAFAFA;
+}
+
+.container {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    max-inline-size: 144.0rem;
+}

@@ -1,0 +1,12 @@
+.header__text {
+    font: var(--body2);
+    color: var(--color-shaded-dark);
+    margin-block-start: 0;
+    margin-block-end: 3.2rem;
+}
+
+@media only screen and (min-width: 1250px) {
+    .header__text {
+        font: var(--body1);
+    }
+}

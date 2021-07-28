@@ -1,0 +1,18 @@
+.main__section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-inline: 2.4rem;
+}
+
+@media only screen and (min-width: 760px) {
+    .main__section {
+        inline-size: 57.3rem;
+        block-size: 24.0rem;
+    }
+}
+@media only screen and (min-width: 1250px) {
+    .main__section {
+        margin-block-start: 3.5rem;
+    }
+}

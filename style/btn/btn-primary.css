@@ -1,0 +1,12 @@
+.btn-primary {
+    display: inline-block;
+    font: var(--overline);
+    color: var(--color-light);
+    text-decoration: none;
+    padding-block-start: 1.6rem;
+    padding-block-end: 1.6rem;
+    padding-inline-start: 4.0rem;
+    padding-inline-end: 4.0rem;
+    background-color: var(--color-primary);
+    border-radius: 2.9rem;
+}
