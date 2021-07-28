@@ -15,7 +15,9 @@
     --color-shaded-dark: hsl(240, 10%, 57%);
 
     --color-primary-light: hsl(192, 90%, 77%);
+    --color-primary-light2: hsl(192, 54%, 64%);
     --color-secondary-light: hsl(268, 100%, 86%);
+    --color-secondary-light2: hsl(268, 54%, 71%);
     --color-light: hsl(0, 0%, 98%);
 
     /* Typography */

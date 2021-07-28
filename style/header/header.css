@@ -10,7 +10,7 @@
 @import "./__text/header__text.css";
 @import "./__btns/header__btns.css";
 @import "./__btn-primary/header__btn-primary.css";
-@import "./__btn-secondary/header__btn-secondary.css";
+
 
 .header {
     display: flex;

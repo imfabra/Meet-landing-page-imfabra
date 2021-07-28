@@ -1,9 +1,9 @@
 .main__num {
-    font: var(--body2);
-    color: var(--color-shaded-dark);
+    font: 900 1.6rem/2.6rem var(--font-base);
+    color: hsla(240, 10%, 57%, 100%);
     border: 1px solid hsla(240, 10%, 57%, 25%);
     border-radius: 50%;
-    background-color: white;
+    background-color: #FAFAFA;
 
     inline-size: 5.6rem;
     block-size: 5.6rem;

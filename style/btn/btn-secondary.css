@@ -10,3 +10,7 @@
     background-color: var(--color-secondary);
     border-radius: 2.9rem;
 }
+
+.btn-secondary:hover {
+    background-color: var(--color-secondary-light2);
+}
